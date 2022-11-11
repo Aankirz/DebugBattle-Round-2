@@ -1,3 +1,3 @@
 # Question 3 description
 
-Change the background of the given web page to blue.
+Change ( increase and decrease ) the size of the ball in regular time intervals using Vanilla JS. 
