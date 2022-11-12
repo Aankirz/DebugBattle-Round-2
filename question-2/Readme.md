@@ -1,3 +1,3 @@
-# Question-2 Description
+# Question-2 description
 
-There is a h1 heading inside a div with class “changeheading”. No id/class is present for h1. There are other several h1’s present in the page also. Change the font-size of the h1 without adding extra class/id.
+Implement a counter logic in the given web page. The counter background should be red for even number and green for odd number.
