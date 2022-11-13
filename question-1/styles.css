@@ -1,28 +1,53 @@
+.container{
+    display: grid;
+   
+    grid-template-areas: 'box1 box1 box1 box1 box1'
+                         'box3 box2 box2 box4 box4'
+                         'box3 box2 box2 box4 box4'
+                         'box3 box5 box5 box5 box5' 
+
+    ;
+
+    
+}
 
 .box
 {
-    height: 10vh;
-    width: 50vw;
+    height: 300px;
+    width: 500px;
+
 }
 
 .box1{
     background-color: #ABC7F0;
-    
+    grid-area: box1;
+    width: 100%;
 }
 
 .box2{
     background-color: #A97878;
+    grid-area: box2;
+
+    
 }
 
 .box3
 {
     background-color: #93C482;
+    height: 100%;
+    grid-area: box3;
+    
+
 }
 
 .box4{
     background-color: #C4B95B;
+    grid-area: box4;
+
 }
 
 .box5{
     background-color: #D067D2;
+    grid-area: box5;
+    width: 100%;
 }
